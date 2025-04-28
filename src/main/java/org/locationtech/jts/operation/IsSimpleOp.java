@@ -91,6 +91,7 @@ public class IsSimpleOp
    *
    * @deprecated use IsSimpleOp(Geometry)
    */
+  @Deprecated
   public IsSimpleOp() {
   }
 
@@ -160,6 +161,7 @@ public class IsSimpleOp
    * @return true if the geometry is simple
    * @deprecated use isSimple()
    */
+  @Deprecated
   public boolean isSimple(LineString geom)
   {
     return isSimpleLinearGeometry(geom);
@@ -172,6 +174,7 @@ public class IsSimpleOp
    * @return true if the geometry is simple
    * @deprecated use isSimple()
    */
+  @Deprecated
   public boolean isSimple(MultiLineString geom)
   {
     return isSimpleLinearGeometry(geom);
@@ -181,6 +184,7 @@ public class IsSimpleOp
    * A MultiPoint is simple iff it has no repeated points
    * @deprecated use isSimple()
    */
+  @Deprecated
   public boolean isSimple(MultiPoint mp)
   {
     return isSimpleMultiPoint(mp);

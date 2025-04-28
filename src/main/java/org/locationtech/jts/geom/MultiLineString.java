@@ -38,6 +38,7 @@ public class MultiLineString
    *      <code>MultiLineString</code>
    * @deprecated Use GeometryFactory instead
    */
+  @Deprecated
   public MultiLineString(LineString[] lineStrings, PrecisionModel precisionModel, int SRID) {
     super(lineStrings, new GeometryFactory(precisionModel, SRID));
   }

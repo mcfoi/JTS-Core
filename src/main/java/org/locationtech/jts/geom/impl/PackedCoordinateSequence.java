@@ -217,6 +217,7 @@ public abstract class PackedCoordinateSequence
    * @see CoordinateSequence#clone()
    * @deprecated
    */
+  @Deprecated
   public abstract Object clone();
   
   public abstract PackedCoordinateSequence copy();
@@ -378,6 +379,7 @@ public abstract class PackedCoordinateSequence
      * @see PackedCoordinateSequence#clone()
      * @deprecated
      */
+    @Deprecated
     public Object clone() {
       return copy();
     }
@@ -552,6 +554,7 @@ public abstract class PackedCoordinateSequence
      * @see PackedCoordinateSequence#clone()
      * @deprecated
      */
+    @Deprecated
     public Object clone() {
       return copy();
     }

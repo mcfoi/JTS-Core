@@ -302,6 +302,7 @@ public class CoordinateArraySequence
    * @return The deep copy
    * @deprecated
    */
+  @Deprecated
   public Object clone() {
     return copy();
   }

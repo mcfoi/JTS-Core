@@ -172,6 +172,7 @@ public abstract class LineIntersector
    * @param precisionModel
    * @deprecated use <code>setPrecisionModel</code> instead
    */
+  @Deprecated
   public void setMakePrecise(PrecisionModel precisionModel)
   {
     this.precisionModel = precisionModel;

@@ -54,6 +54,7 @@ public class LineString
    * @throws IllegalArgumentException if too few points are provided
    */
   /** @deprecated Use GeometryFactory instead */
+  @Deprecated
   public LineString(Coordinate[] points, PrecisionModel precisionModel, int SRID)
   {
     super(new GeometryFactory(precisionModel, SRID));
@@ -261,6 +262,7 @@ public class LineString
    * @return a clone of this instance
    * @deprecated
    */
+  @Deprecated
   public Object clone() {
     return copy();
   }

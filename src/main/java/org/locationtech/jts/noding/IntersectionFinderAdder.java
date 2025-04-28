@@ -29,6 +29,7 @@ import org.locationtech.jts.geom.Coordinate;
  * @see IntersectionAdder
  * @deprecated see InteriorIntersectionFinderAdder
  */
+@Deprecated
 public class IntersectionFinderAdder
     implements SegmentIntersector
 {

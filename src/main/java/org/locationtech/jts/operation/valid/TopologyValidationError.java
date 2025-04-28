@@ -28,11 +28,13 @@ public class TopologyValidationError {
    * Not used
    * @deprecated
    */
+  @Deprecated
   public static final int ERROR                   = 0;
   /**
    * No longer used - repeated points are considered valid as per the SFS
    * @deprecated
    */
+  @Deprecated
   public static final int REPEATED_POINT          = 1;
 
   /**

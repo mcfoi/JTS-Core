@@ -166,6 +166,7 @@ public class WKBWriter
    * 
    * @deprecated
    */
+  @Deprecated
   public static String bytesToHex(byte[] bytes)
   {
     return toHex(bytes);

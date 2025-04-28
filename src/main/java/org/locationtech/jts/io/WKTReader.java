@@ -440,6 +440,7 @@ S   */
    *
    *@deprecated in favor of functions returning {@link CoordinateSequence}s
    */
+  @Deprecated
   private Coordinate[] getCoordinates(StreamTokenizer tokenizer) throws IOException, ParseException {
     String nextToken = getNextEmptyOrOpener(tokenizer);
     if (nextToken.equals(EMPTY)) {
@@ -468,6 +469,7 @@ S   */
    *
    *@deprecated in favor of functions returning {@link CoordinateSequence}s
    */
+  @Deprecated
   private Coordinate[] getCoordinatesNoLeftParen(StreamTokenizer tokenizer) throws IOException, ParseException {
     String nextToken = null;
     ArrayList coordinates = new ArrayList();
@@ -493,6 +495,7 @@ S   */
    *
    *@deprecated in favor of functions returning {@link CoordinateSequence}s
    */
+  @Deprecated
   private Coordinate getPreciseCoordinate(StreamTokenizer tokenizer)
       throws IOException, ParseException
   {

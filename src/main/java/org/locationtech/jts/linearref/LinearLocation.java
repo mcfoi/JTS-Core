@@ -449,6 +449,7 @@ public class LinearLocation
    * @return a copy of this location
    * @deprecated
    */
+  @Deprecated
   public Object clone()
   {
     return copy();

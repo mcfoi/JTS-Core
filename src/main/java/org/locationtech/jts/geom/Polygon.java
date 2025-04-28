@@ -77,6 +77,7 @@ public class Polygon
    *      <code>Polygon</code>
    * @deprecated Use GeometryFactory instead
    */
+  @Deprecated
   public Polygon(LinearRing shell, PrecisionModel precisionModel, int SRID) {
     this(shell, new LinearRing[]{}, new GeometryFactory(precisionModel, SRID));
   }
@@ -97,6 +98,7 @@ public class Polygon
    *      <code>Polygon</code>
    * @deprecated Use GeometryFactory instead
    */
+  @Deprecated
   public Polygon(LinearRing shell, LinearRing[] holes, PrecisionModel precisionModel, int SRID) {
       this(shell, holes, new GeometryFactory(precisionModel, SRID));
   }
@@ -340,6 +342,7 @@ public class Polygon
    * @return a clone of this instance
    * @deprecated
    */
+  @Deprecated
   public Object clone() {
 
     return copy();

@@ -25,6 +25,7 @@ import org.locationtech.jts.math.MathUtil;
  * @version 1.7
  * @deprecated See Length, Area, Distance, Orientation, PointLocation
  */
+@Deprecated
 public class CGAlgorithms
 {
 

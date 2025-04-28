@@ -150,6 +150,7 @@ public class MinimumBoundingCircle
    * 
    * @deprecated use #getMaximumDiameter()
    */
+  @Deprecated
   public Geometry getFarthestPoints() {
     return getMaximumDiameter();
   }

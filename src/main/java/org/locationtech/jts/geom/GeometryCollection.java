@@ -35,6 +35,7 @@ public class GeometryCollection extends Geometry {
   protected Geometry[] geometries;
 
   /** @deprecated Use GeometryFactory instead */
+  @Deprecated
   public GeometryCollection(Geometry[] geometries, PrecisionModel precisionModel, int SRID) {
       this(geometries, new GeometryFactory(precisionModel, SRID));
   }
@@ -215,6 +216,7 @@ public class GeometryCollection extends Geometry {
    * @return a clone of this instance
    * @deprecated
    */
+  @Deprecated
   public Object clone() {
     return copy();
   }

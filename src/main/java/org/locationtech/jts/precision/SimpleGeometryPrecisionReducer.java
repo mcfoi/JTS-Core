@@ -39,6 +39,7 @@ import org.locationtech.jts.geom.util.GeometryEditor;
  * 
  * @deprecated use GeometryPrecisionReducer
  */
+@Deprecated
 public class SimpleGeometryPrecisionReducer
 {
 	/**

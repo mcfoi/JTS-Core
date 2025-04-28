@@ -53,6 +53,7 @@ public class LinearRing extends LineString
    * 
    * @deprecated Use GeometryFactory instead
    */
+  @Deprecated
   public LinearRing(Coordinate[] points, PrecisionModel precisionModel,
                     int SRID) {
     this(points, new GeometryFactory(precisionModel, SRID));

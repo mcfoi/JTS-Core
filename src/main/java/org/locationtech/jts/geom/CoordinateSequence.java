@@ -271,6 +271,7 @@ public interface CoordinateSequence
    * @return a copy of the coordinate sequence containing copies of all points
    * @deprecated Recommend {@link #copy()} 
    */
+  @Deprecated
   Object clone();
   
   /**

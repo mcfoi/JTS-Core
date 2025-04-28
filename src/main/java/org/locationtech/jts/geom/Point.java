@@ -47,6 +47,7 @@ public class Point
    *      <code>Point</code>
    * @deprecated Use GeometryFactory instead
    */
+  @Deprecated
   public Point(Coordinate coordinate, PrecisionModel precisionModel, int SRID) {
     super(new GeometryFactory(precisionModel, SRID));
     init(getFactory().getCoordinateSequenceFactory().create(
@@ -182,6 +183,7 @@ public class Point
    * @return a clone of this instance
    * @deprecated
    */
+  @Deprecated
   public Object clone() {
     return copy();
   }

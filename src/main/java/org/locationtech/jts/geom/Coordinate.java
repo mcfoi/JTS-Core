@@ -87,6 +87,7 @@ public class Coordinate implements Comparable<Coordinate>, Cloneable, Serializab
    * The z-ordinate.
    * @deprecated Recommend {@link #getZ()}
    */
+  @Deprecated
   public double z;
 
   /**

@@ -39,6 +39,7 @@ public class MultiPoint
    *      <code>MultiPoint</code>
    * @deprecated Use GeometryFactory instead
    */
+  @Deprecated
   public MultiPoint(Point[] points, PrecisionModel precisionModel, int SRID) {
     super(points, new GeometryFactory(precisionModel, SRID));
   }

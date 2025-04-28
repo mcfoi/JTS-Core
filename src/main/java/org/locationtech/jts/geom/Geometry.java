@@ -1614,6 +1614,7 @@ public abstract class Geometry
    * @return a clone of this instance
    * @deprecated
    */
+  @Deprecated
   public Object clone() {
     try {
       Geometry clone = (Geometry) super.clone();

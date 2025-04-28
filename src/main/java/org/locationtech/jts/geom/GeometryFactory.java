@@ -379,6 +379,7 @@ public class GeometryFactory
    * @return a MultiPoint object
    * @deprecated Use {@link GeometryFactory#createMultiPointFromCoords} instead
    */
+  @Deprecated
   public MultiPoint createMultiPoint(Coordinate[] coordinates) {
       return createMultiPoint(coordinates != null
                               ? getCoordinateSequenceFactory().create(coordinates)

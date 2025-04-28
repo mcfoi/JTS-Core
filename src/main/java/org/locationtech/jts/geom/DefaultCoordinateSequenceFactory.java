@@ -21,6 +21,7 @@ import java.io.Serializable;
  *
  * @deprecated no longer used, recommend CoordinateArraySequenceFactory for array backed implementation
  */
+@Deprecated
 public class DefaultCoordinateSequenceFactory
     implements CoordinateSequenceFactory, Serializable
 {
@@ -30,6 +31,7 @@ public class DefaultCoordinateSequenceFactory
   public DefaultCoordinateSequenceFactory() {
   }
 
+  @Deprecated
   private Object readResolve() {
   	// see http://www.javaworld.com/javaworld/javatips/jw-javatip122.html
     return DefaultCoordinateSequenceFactory.instance();

@@ -22,6 +22,7 @@ import java.io.Serializable;
  *
  * @deprecated No longer used, recommend CoordinateArraySequence for an array backed implementation
  */
+@Deprecated
 class DefaultCoordinateSequence
     implements CoordinateSequence, Serializable
 {
@@ -143,6 +144,7 @@ class DefaultCoordinateSequence
    * @return The deep copy
    * @deprecated
    */
+  @Deprecated
   public Object clone() {
     return copy();
   }

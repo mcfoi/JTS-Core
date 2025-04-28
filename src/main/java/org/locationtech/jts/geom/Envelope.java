@@ -554,6 +554,7 @@ public class Envelope
    * changed to be a true overlap check; that is, whether the intersection is
    * two-dimensional.
    */
+  @Deprecated
   public boolean overlaps(Envelope other) {
     return intersects(other);
   }
@@ -571,6 +572,7 @@ public class Envelope
   /**
    * @deprecated Use #intersects instead.
    */
+  @Deprecated
   public boolean overlaps(Coordinate p) {
     return intersects(p);
   }
@@ -592,6 +594,7 @@ public class Envelope
   /**
    * @deprecated Use #intersects instead.
    */
+  @Deprecated
   public boolean overlaps(double x, double y) {
     return intersects(x, y);
   }

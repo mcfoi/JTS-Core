@@ -47,6 +47,7 @@ public class MultiPolygon
    *      <code>MultiPolygon</code>
    * @deprecated Use GeometryFactory instead
    */
+  @Deprecated
   public MultiPolygon(Polygon[] polygons, PrecisionModel precisionModel, int SRID) {
     this(polygons, new GeometryFactory(precisionModel, SRID));
   }
